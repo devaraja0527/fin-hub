@@ -25,14 +25,9 @@ The application can be run locally or in a docker container, the requirements fo
 $ mvn spring-boot:run
 ```
 
-Application will run by default on port `1234`
-
-Configure the port by changing `server.port` in __application.yml__
-
-
 Application will run by default on port `8080`
 
-Configure the port by changing `services.api.ports` in __docker-compose.yml__. Port 1234 was used by default so the value is easy to identify and change in the configuration file.
+Configure the port by changing `server.port` in __application.yml__
 
 
 If everything is working as expected, the request should return a pleasant greeting. ;)

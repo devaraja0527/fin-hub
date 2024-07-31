@@ -19,7 +19,7 @@ public class FinHubMockServiceTestData {
                             "totalIncome": 100000.02,
                             "noOfDependents": 1,
                             "noOfChildren": 1,
-                            "highNetworthIndicator": 30,
+                            "highNetworthIndicator": "NO",
                             "martialStatus": "Married"
                             }
                        }
@@ -59,7 +59,7 @@ public class FinHubMockServiceTestData {
                             "totalIncome": 100000.02,
                             "noOfDependents": 1,
                             "noOfChildren": 1,
-                            "highNetworthIndicator": 30,
+                            "highNetworthIndicator": "NO",
                             "martialStatus": "Married"
                             }
                        }
@@ -78,7 +78,7 @@ public class FinHubMockServiceTestData {
                                     "totalIncome": 100000.02,
                                     "noOfDependents": 1,
                                     "noOfChildren": 1,
-                                    "highNetworthIndicator": 30,
+                                    "highNetworthIndicator": "NO",
                                     "martialStatus": "Married"
                                     }
                                }
@@ -94,7 +94,7 @@ public class FinHubMockServiceTestData {
                                     "totalIncome": 100000.02,
                                     "noOfDependents": 1,
                                     "noOfChildren": 1,
-                                    "highNetworthIndicator": 30,
+                                    "highNetworthIndicator": "NO",
                                     "martialStatus": "Married"
                                     }
                                }
@@ -139,9 +139,8 @@ public class FinHubMockServiceTestData {
               {
                   "data": {
                         "period": "2024-04",
-                        "averageSpend": 500,
                         "categories": [{
-                          "categoryId": "category-1",
+                          "categoryId": "category:bills",
                            "customerAmount": 500,
                            "clusterAvgAmount": 6000
                            }
@@ -155,7 +154,7 @@ public class FinHubMockServiceTestData {
               "data": {
                 "customerId": "1234567890",
                 "period": "2024-04",
-                "categoryId": "category-1234"
+                "categoryId": "category:bills"
               }
             }
             """;
@@ -165,7 +164,7 @@ public class FinHubMockServiceTestData {
               "data": {
                 "customerId": "1234567890",
                 "period": "2024-04",
-                "categoryId": "category-1234"
+                "categoryId": "category:bills"
               }
             }
             """;
@@ -176,7 +175,7 @@ public class FinHubMockServiceTestData {
               {
               "data": {
                 "period": "2024-04",
-                "categoryId": "category-1234"
+                "categoryId": "category:bills"
               }
             }
             """,
@@ -185,7 +184,7 @@ public class FinHubMockServiceTestData {
               {
               "data": {
                 "customerId": "1234567890",
-                "categoryId": "category-1234"
+                "categoryId": "category:bills"
               }
             }
             """,
@@ -208,13 +207,13 @@ public class FinHubMockServiceTestData {
                    "noOfTransactions": 10,
                    "topMerchant": {
                      "merchantId": "merchant-1",
-                     "merchantName": "Tescon",
+                     "merchantName": "Tesco",
                      "merchantTotalAmount": 1000.2
                    },
                    "suggestions": [
                      {
-                       "url": "https://api.random.com/uri",
-                       "description": "Google",
+                       "url": "https://www.natwest.com/current-accounts/existing-customers/tastecard.html",
+                       "description": "20%  discount \\\\n Multi Use",
                        "cashbackAmout": 100
                      }
                    ]
